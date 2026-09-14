@@ -1,0 +1,79 @@
+========================================================================
+   OPTISCALER - RX 580 EDICAO ESPECIAL ALIEXPRESS (PLACA BATIZADA)
+   Liberador de NVIDIA DLSS + Frame Generation para GPUs AMD Polaris
+========================================================================
+
+Parabens guerreiro do baixo orcamento! Este pacote foi 100% calibrado,
+testado e configurado para transformar a sua RX 580 (2048SP ou 2304SP)
+em uma "RTX 4090 disfarçada", liberando DLSS, FSR 3.1 e Frame Generation
+para dobrar o seu FPS em jogos pesados da nova geracao!
+
+------------------------------------------------------------------------
+>>> PASSO 1: A VACINA ANTI-CRASH DO WINDOWS (OBRIGATORIO) <<<
+------------------------------------------------------------------------
+1. De 2 cliques no arquivo:
+   "EXECUTAR_PRIMEIRO-1_Ativar_TDR_Delay_Anti_Crash.reg"
+2. Clique em "Sim" para aplicar no registro.
+3. O que isso faz? Evita que o Windows de tela azul ou feche o jogo quando
+   a placa estiver gerando quadros pesados por segundo.
+4. Reinicie o computador.
+5. (Opcional): De 2 cliques em "VERIFICAR_SISTEMA_ANTI_CRASH.bat" para
+   ter certeza de que o Windows ja esta protegido.
+
+------------------------------------------------------------------------
+>>> PASSO 2: INSTALAR OU DESINSTALAR NO JOGO <<<
+------------------------------------------------------------------------
+1. Feche o jogo que você quer turbinar.
+2. De 2 cliques em "EXECUTAR SEGUNDO.bat".
+3. Na janela que abrir, clique no botao "Procurar...".
+4. Selecione o arquivo EXECUTAVEL (.exe) do seu jogo.
+   * Dica em jogos da Unreal Engine (ex: Bodycam):
+     O executável fica dentro de <PastaDoJogo>\Binaries\Win64\NomeDoJogo-Win64-Shipping.exe
+   * Dica no Cyberpunk 2077:
+     Fica em <Cyberpunk 2077>\bin\x64\Cyberpunk2077.exe
+5. Mantenha "dxgi.dll" e clique em "Instalar".
+6. Vai aparecer a confirmacao de sucesso. Pronto!
+   * (Se quiser remover o mod depois, basta abrir o mesmo instalador e
+      clicar em "Desinstalar").
+
+------------------------------------------------------------------------
+>>> PASSO 3: DENTRO DO JOGO <<<
+------------------------------------------------------------------------
+1. Abra o jogo normalmente.
+2. Va em Configuracoes de Video / Graficos:
+   - A opcao "NVIDIA DLSS" vai estar DESBLOQUEADA no menu!
+   - Selecione "NVIDIA DLSS" em modo Quality (Qualidade) ou Balanced.
+     (O mod ja roda a reconstrucao Neural por IA calibrada para a RX 580).
+   - Ative o "Frame Generation (DLSS 3 / Gerador de Quadros 2X)".
+3. Pressione a tecla INSERT no teclado caso queira abrir o menu do mod.
+
+------------------------------------------------------------------------
+>>> DICAS IMPORTANTES <<<
+------------------------------------------------------------------------
+- EVITAR TELA PISCANDO: Se o jogo ja tem opcao de Frame Generation no
+  proprio menu de opcoes, ative APENAS no menu do jogo. Nao marque o FG
+  no menu flutuante (INSERT) ao mesmo tempo para nao dar conflito de quadros.
+  Deixe o jogo sempre em modo "Janela Sem Bordas" (Borderless).
+
+- JOGOS SEM DLSS NATIVO (Ex: Resident Evil 4 Remake): Nesses jogos nao
+  existe DLSS de fabrica, apenas FSR. Basta ativar o FSR 2 no menu do
+  jogo que o mod captura os comandos e aplica a reconstrucao neural.
+  Aperte INSERT no jogo para confirmar que o painel do mod abriu.
+
+------------------------------------------------------------------------
+>>> DICA PRO: TUNAGEM DE OURO NO MSI AFTERBURNER <<<
+------------------------------------------------------------------------
+Para ganhar mais 5 a 10 FPS de graca:
+1. Abra o MSI Afterburner e va na Engrenagem (Configuracoes).
+2. Na aba Geral -> Compatibilidades para AMD:
+   - Marque: [x] Aumentar limites oficiais de overclock
+   - Marque: [x] Desativar ULPS
+   - Modo de overclock nao oficial: "Com suporte a PowerPlay"
+   - Clique em Aplicar e reinicie o Afterburner.
+3. Na tela principal:
+   - Mem (MHz): Puxe de 1750 para 1850 ou 1900 MHz (ganho direto de FPS!)
+   - Core (MHz): Coloque em 1260 ou 1300 MHz se sua placa aguentar.
+   - Clique em Apply e salve no perfil 1.
+
+Bom tiroteio e divirta-se jogando o que diziam que sua placa nao rodava nem a ventoninha!
+========================================================================
